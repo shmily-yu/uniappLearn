@@ -1,0 +1,22 @@
+<import src="/components/uni-nav-bar/uni-nav-bar.vue.wxml" />
+<import src="/components/common/uploud-images.vue.wxml" />
+<import src="/components/uni-popup/uni-popup.vue.wxml" />
+<import src="/components/uni-collapse/uni-collapse.vue.wxml" />
+<import src="/components/uni-collapse-item/uni-collapse-item.vue.wxml" />
+<import src="/components/home/other-login.vue.wxml" />
+<import src="/components/home/home-info.vue.wxml" />
+<import src="/components/home/home-data.vue.wxml" />
+<import src="/components/home/home-list-item.vue.wxml" />
+
+<template name="790a1d06-default-790a1d06-0"><view class="_view 790a1d06 u-f-ajc" bindtap="handleProxy" data-eventid="{{'790a1d06-0'}}" data-comkey="{{$k}}">{{yinsi}}<view class="_view 790a1d06 icon iconfont icon-xialazhankai"></view></view></template>
+
+<template name="790a1d06-default-790a1d06-2"><view class="_view 790a1d06 gonggao"><view class="_view 790a1d06 u-f-ajc"><image src="../../static/common/addinput.png" mode="widthFix" class="_image 790a1d06"></image></view><view class="_view 790a1d06">1.涉及黄色，政治，广告及骚扰信息</view><view class="_view 790a1d06">2.涉及黄色，政治，广告及骚扰信息</view><view class="_view 790a1d06">3.涉及黄色，政治，广告及骚扰信息</view><view class="_view 790a1d06">4.涉及黄色，政治，广告及骚扰信息</view><button type="default" bindtap="handleProxy" data-eventid="{{'790a1d06-4'}}" data-comkey="{{$k}}" class="_button 790a1d06">朕知道了</button></view></template>
+
+<template name="22ad9c66-default-22ad9c66-1"><block wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item"><template data="{{...$root['0'], ...$root[$kk+'22ad9c66-0-'+index],$root}}" is="35fd2300"></template></block></template>
+
+<template name="data-v-5ef9bae6-default-e7fac2e4-0"><view class="_view data-v-5ef9bae6 nav-tab-bar u-f-ajc"><block wx:key="tab.id" key="{{tab.id}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab"><view class="_view data-v-5ef9bae6 u-f-ajc {{[tabIndex == index ? 'active' : '']}}" bindtap="handleProxy" data-eventid="{{'e7fac2e4-0-'+index}}" data-comkey="{{$k}}">{{tab.name}}<view wx:if="{{(tabIndex==index)}}" class="_view data-v-5ef9bae6 nav-tab-bar-line"></view></view></block></view></template>
+
+<template name="data-v-5ef9bae6-left-e7fac2e4-0"><view class="_view data-v-5ef9bae6 nav-left"><view class="_view data-v-5ef9bae6 icon iconfont icon-qiandao"></view></view></template>
+
+<template name="data-v-5ef9bae6-right-e7fac2e4-0"><view class="_view data-v-5ef9bae6 nav-right u-f-ajc"><view class="_view data-v-5ef9bae6 icon iconfont icon-bianji1"></view></view></template>
+

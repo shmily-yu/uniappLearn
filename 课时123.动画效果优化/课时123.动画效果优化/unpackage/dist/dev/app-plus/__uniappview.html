@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"仿糗事百科","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"usingComponents":{},"scrollIndicator":"none","bounce":"none","titleNView":{"searchInput":{"align":"center","backgroundColor":"#F7F7F7","borderRadius":"4px","placeholder":"搜索糗事","placeholderColor":"#CCCCCC","disabled":true},"buttons":[{"color":"#FF9619","colorPressed":"#BBBBBB","float":"left","fontSize":"22px","fontSrc":"/static/font/icon.ttf","text":""},{"color":"#000000","colorPressed":"#BBBBBB","float":"right","fontSize":"22px","fontSrc":"/static/font/icon.ttf","text":""}]}}},"pages/news/news.html":{"window":{"usingComponents":{},"titleNView":false,"bounce":"none"}},"pages/paper/paper.html":{"window":{"usingComponents":{},"enablePullDownRefresh":true,"navigationBarTitleText":"小纸条","titleNView":{"buttons":[{"color":"#000000","colorPressed":"#BBBBBB","float":"left","fontSize":"22px","fontSrc":"/static/font/icon.ttf","text":""},{"color":"#000000","colorPressed":"#BBBBBB","float":"right","fontSize":"22px","fontSrc":"/static/font/icon.ttf","text":""}]}}},"pages/home/home.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我的","scrollIndicator":"none","bounce":"none","titleNView":{"buttons":[{"type":"menu"}]}}},"pages/search/search.html":{"window":{"usingComponents":{},"enablePullDownRefresh":true,"scrollIndicator":"none","bounce":"none","titleNView":{"autoBackButton":false,"searchInput":{"align":"left","backgroundColor":"#F7F7F7","borderRadius":"4px","placeholder":"搜索糗事","placeholderColor":"#CCCCCC","disabled":false},"buttons":[{"color":"#000000","colorPressed":"#BBBBBB","float":"right","fontSize":"16px","text":"取消"}]}}},"pages/add-input/add-input.html":{"window":{"usingComponents":{},"animationType":"slide-in-bottom","animationDuration":200,"titleNView":false}},"pages/topic-nav/topic-nav.html":{"window":{"usingComponents":{},"navigationBarTitleText":"话题分类","bounce":"none"}},"pages/topic-detail/topic-detail.html":{"window":{"usingComponents":{},"enablePullDownRefresh":true,"animationType":"slide-in-bottom","animationDuration":200,"scrollIndicator":"none","titleNView":{"type":"transparent","buttons":[{"type":"menu"}]}}},"pages/user-list/user-list.html":{"window":{"usingComponents":{},"animationType":"slide-in-left","scrollIndicator":"none","bounce":"none","titleNView":{"autoBackButton":false,"searchInput":{"align":"left","backgroundColor":"#F7F7F7","borderRadius":"4px","placeholder":"搜索糗事","placeholderColor":"#CCCCCC","disabled":false},"buttons":[{"color":"#000000","colorPressed":"#BBBBBB","float":"right","fontSize":"16px","text":"取消"}]}}},"pages/user-chat/user-chat.html":{"window":{"usingComponents":{},"navigationBarTitleText":"聊天页","titleNView":{"buttons":[{"color":"#000000","colorPressed":"#BBBBBB","float":"right","fontSize":"22px","fontSrc":"/static/font/icon.ttf","text":""}]}}},"pages/detail/detail.html":{"window":{"usingComponents":{},"navigationBarTitleText":"内容页","scrollIndicator":"none","bounce":"none","titleNView":{"buttons":[{"type":"menu"}]}}},"pages/user-set/user-set.html":{"window":{"usingComponents":{},"navigationBarTitleText":"设置"}},"pages/user-set-repassword/user-set-repassword.html":{"window":{"usingComponents":{},"navigationBarTitleText":"修改密码","scrollIndicator":"none"}},"pages/user-set-email/user-set-email.html":{"window":{"usingComponents":{},"navigationBarTitleText":"修改邮箱","scrollIndicator":"none"}},"pages/user-set-userinfo/user-set-userinfo.html":{"window":{"usingComponents":{},"navigationBarTitleText":"修改资料","scrollIndicator":"none"}},"pages/user-set-help/user-set-help.html":{"window":{"usingComponents":{},"navigationBarTitleText":"意见反馈","scrollIndicator":"none"}},"pages/user-set-about/user-set-about.html":{"window":{"usingComponents":{},"navigationBarTitleText":"关于仿糗百","scrollIndicator":"none"}},"pages/login/login.html":{"window":{"usingComponents":{},"titleNView":false,"bounce":"none","scrollIndicator":"none"}},"pages/user-space/user-space.html":{"window":{"usingComponents":{},"navigationBarTitleText":"个人空间","scrollIndicator":"none","titleNView":{"type":"transparent","buttons":[{"type":"menu"}]}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"仿糗事百科","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#FFFFFF"}},"tabBar":{"color":"#B5B5B5","selectedColor":"#FEE42B","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","text":"糗事","iconPath":"/static/tabbar/index.png","selectedIconPath":"/static/tabbar/indexed.png"},{"pagePath":"pages/news/news.html","text":"动态","iconPath":"/static/tabbar/news.png","selectedIconPath":"/static/tabbar/newsed.png"},{"pagePath":"pages/paper/paper.html","text":"小纸条","iconPath":"/static/tabbar/paper.png","selectedIconPath":"/static/tabbar/papered.png"},{"pagePath":"pages/home/home.html","text":"我的","iconPath":"/static/tabbar/home.png","selectedIconPath":"/static/tabbar/homeed.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/news/news","pages/paper/paper","pages/home/home","pages/search/search","pages/add-input/add-input","pages/topic-nav/topic-nav","pages/topic-detail/topic-detail","pages/user-list/user-list","pages/user-chat/user-chat","pages/detail/detail","pages/user-set/user-set","pages/user-set-repassword/user-set-repassword","pages/user-set-email/user-set-email","pages/user-set-userinfo/user-set-userinfo","pages/user-set-help/user-set-help","pages/user-set-about/user-set-about","pages/login/login","pages/user-space/user-space"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"1.9.4"}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

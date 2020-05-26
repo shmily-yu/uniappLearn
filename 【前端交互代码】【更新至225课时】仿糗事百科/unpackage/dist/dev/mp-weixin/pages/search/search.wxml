@@ -1,0 +1,1 @@
+<view bind:__l="__l"><block wx:if="{{list.length>0}}"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><index-list item="{{item}}" index="{{index}}"></index-list></block></block><load-more loadtext="{{loadtext}}"></load-more></block><block wx:else><block wx:if="{{issearch&&list.length<1}}"><no-thing></no-thing></block></block></view>

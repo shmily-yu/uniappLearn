@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"chat-load-more{ padding: ",[0,15]," 0;color: #BBBBBB; }\n.",[1],"chat-load-more-hover{ background: #F4F4F4; }\n",],undefined,{path:"./pages/user-feedback/user-feedback.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/user-feedback/user-feedback.wxml') } }));

@@ -1,0 +1,32 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "",
+	"appid": "wxc91fab2212c4b6f5",
+	"projectname": "%E4%BB%BF%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}

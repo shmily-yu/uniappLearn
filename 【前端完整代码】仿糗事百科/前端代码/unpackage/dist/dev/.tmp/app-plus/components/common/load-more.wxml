@@ -1,0 +1,1 @@
+<view class="load-more data-v-b52da366" bind:__l="__l">{{loadtext}}</view>

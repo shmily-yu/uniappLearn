@@ -1,0 +1,1 @@
+<import src="/common/slots.wxml" /><template name="552b1852"><view class="_view 552b1852 uni-collapse"><template name="default"></template><template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template></view></template>

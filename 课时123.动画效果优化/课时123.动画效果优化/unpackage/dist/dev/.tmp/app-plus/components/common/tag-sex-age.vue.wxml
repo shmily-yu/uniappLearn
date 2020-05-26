@@ -1,0 +1,1 @@
+<template name="fef66684"><view class="_view data-v-2c08a796 tag-sex icon iconfont {{[sex == 0 ? 'icon-nan' : 'icon-nv']}}">{{age}}</view></template>

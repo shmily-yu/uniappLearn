@@ -1,0 +1,127 @@
+
+@charset "UTF-8";
+.uni-badge {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 12px;
+	line-height: 1;
+	display: inline-block;
+	padding: 3px 6px;
+	color: #333;
+	border-radius: 100px;
+	background-color: #f1f1f1
+}
+.uni-badge.uni-badge-inverted {
+	padding: 0 5px 0 0;
+	color: #999;
+	background-color: transparent
+}
+.uni-badge-primary {
+	color: #fff;
+	background-color: #007aff
+}
+.uni-badge-primary.uni-badge-inverted {
+	color: #007aff;
+	background-color: transparent
+}
+.uni-badge-success {
+	color: #fff;
+	background-color: #4cd964
+}
+.uni-badge-success.uni-badge-inverted {
+	color: #4cd964;
+	background-color: transparent
+}
+.uni-badge-warning {
+	color: #fff;
+	background-color: #f0ad4e
+}
+.uni-badge-warning.uni-badge-inverted {
+	color: #f0ad4e;
+	background-color: transparent
+}
+.uni-badge-error {
+	color: #fff;
+	background-color: #dd524d
+}
+.uni-badge-error.uni-badge-inverted {
+	color: #dd524d;
+	background-color: transparent
+}
+.uni-badge--small {
+	-webkit-transform: scale(.8);
+	    -ms-transform: scale(.8);
+	        transform: scale(.8);
+	-webkit-transform-origin: center center;
+	    -ms-transform-origin: center center;
+	        transform-origin: center center
+}
+
+
+.paper-list.data-v-b0b3d592{
+	border-bottom: 1rpx solid #EEEEEE;
+	padding: 20rpx 0;
+}
+.paper-list>image.data-v-b0b3d592{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100%;
+	margin-right: 20rpx;
+	-webkit-flex-shrink: 0;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+}
+.paper-list>view.data-v-b0b3d592{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.paper-list>view>view.data-v-b0b3d592:first-child{
+	font-size: 35rpx;
+}
+.paper-list>view>view:first-child>view.data-v-b0b3d592{
+	color: #CBCBCB;
+}
+.paper-list>view>view.data-v-b0b3d592:last-child{
+	color: #999999;
+}
+
+
+.papar-left-popup-mask{
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1999;
+}
+.papar-left-popup{
+	position: fixed;
+	right: 0;
+	top: 10rpx;
+	background: #FFFFFF;
+	z-index: 2000;
+	width: 55%;
+	-webkit-box-shadow: 1rpx 1rpx 20rpx 2rpx #CCCCCC;
+	        box-shadow: 1rpx 1rpx 20rpx 2rpx #CCCCCC;
+}
+.papar-left-popup>view{
+	padding: 20rpx;
+	font-size: 35rpx;
+}
+.papar-left-popup>view>view{
+	margin-right: 10rpx;
+	font-weight: bold;
+}
+.papar-left-popup-h{
+	background: #EEEEEE;
+}
+
+
+.body{
+	padding: 0 20rpx;
+}
+
+

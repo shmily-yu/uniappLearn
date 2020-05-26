@@ -1,0 +1,1 @@
+<import src="/common/slots.wxml" /><template name="db3c9b9c"><view class="_view db3c9b9c uni-status-bar" style=" {{('height:' + statusBarHeight + ';' + 'background:' + bgcolor + ';')}}"><template name="default"></template><template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template></view></template>
